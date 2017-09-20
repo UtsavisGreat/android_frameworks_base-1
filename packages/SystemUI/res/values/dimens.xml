@@ -1024,4 +1024,7 @@
     <!-- How much we expand the touchable region of the status bar below the notch to catch touches
          that just start below the notch. -->
     <dimen name="display_cutout_touchable_region_size">12dp</dimen>
+
+    <!-- QS Tiles-->
+    <dimen name="qs_tile_height_wo_label">48dp</dimen>
 </resources>
