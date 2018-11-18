@@ -147,6 +147,11 @@ public class ToggleSliderView extends RelativeLayout implements ToggleSlider {
         return super.dispatchTouchEvent(ev);
     }
 
+    @Override
+    public void setAutoBrightness(boolean enable) {
+        mSlider.setThumb(getResources().getDrawable(R.drawable.ic_brightness_thumb));
+    }
+
     private final OnCheckedChangeListener mCheckListener = new OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(CompoundButton toggle, boolean checked) {
