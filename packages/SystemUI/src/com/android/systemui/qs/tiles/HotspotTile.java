@@ -39,7 +39,7 @@ public class HotspotTile extends QSTileImpl<AirplaneBooleanState> {
     private static final Intent TETHER_SETTINGS = new Intent().setComponent(new ComponentName(
             "com.android.settings", "com.android.settings.TetherSettings"));
 
-    private final Icon mEnabledStatic = ResourceIcon.get(R.drawable.ic_hotspot);
+    private final Icon mEnabledStatic = ResourceIcon.get(R.drawable.ic_hotspot_disable);
 
     private final HotspotController mHotspotController;
     private final DataSaverController mDataSaverController;
